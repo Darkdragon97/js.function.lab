@@ -1,48 +1,46 @@
-console.log("It's working")
-const maxOfTwoNumbers = (x, y) => {
-  if (x >= y) {
-    return x // If x is greater then or equal to y, return x
-  } else {
-    return y // If x is less then y, return y
-  }
-}
-console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9)) // output: 9
-
-const isAdult = (age) => {
-  if (age >= 18) {
-    return 'Adult' //If the age is 18 or greater, return 'Adult'
-  } else {
-    return 'Minor' // Otherwise, return 'Minor'
-  }
-}
-
-console.log('Exercise 2 Result:', isAdult(21)) // Output: 'Adult'
-
-const isCharAVowel = (char) => {
-  if (char === 'a') {
-    return true
-  } else return false
-}
-console.log('Exercise 3 Result:', isCharAVowel('a')) // Output: true
-
-const generateEmail = (name, email) => {
-  return `${name}@${email}`
-}
-
-console.log('Exercise 4 Result:', generateEmail('johnsmith', 'example.com'))
-
-const greetUser = (name, timeOfDay) => {
-  return `Good${timeOfDay}${name}!`
-}
-console.log('Exercise 5 Result:', greetUser('Sam', 'morning'))
-
-// maxOfThree(17, 4, 9)
-// if(17 > 4) => {
-//   return 17;
-// } else if (17 > 9) => {
-//   return 17;
+// console.log("It's working")
+// const maxOfTwoNumbers = (x, y) => {
+//   if (x >= y) {
+//     return x // If x is greater then or equal to y, return x
+//   } else {
+//     return y // If x is less then y, return y
+//   }
 // }
-// console.log('Exercise 6 Result:', maxOfThree(5, 10,8));
+// console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9)) // output: 9
+
+// const isAdult = (age) => {
+//   if (age >= 18) {
+//     return 'Adult' //If the age is 18 or greater, return 'Adult'
+//   } else {
+//     return 'Minor' // Otherwise, return 'Minor'
+//   }
+// }
+
+// console.log('Exercise 2 Result:', isAdult(21)) // Output: 'Adult'
+
+// const isCharAVowel = (char) => {
+//   if (char === 'a') {
+//     return true
+//   } else return false
+// }
+// console.log('Exercise 3 Result:', isCharAVowel('a')) // Output: true
+
+// const generateEmail = (name, email) => {
+//   return `${name}@${email}`
+// }
+
+// console.log('Exercise 4 Result:', generateEmail('johnsmith', 'example.com'))
+
+// const greetUser = (name, timeOfDay) => {
+//   return `Good${timeOfDay}${name}!`
+// }
+// console.log('Exercise 5 Result:', greetUser('Sam', 'morning'))
+
+const maxOfThree = (num1, num2, num3) => {
+  return Math.max(num1, num2, num3)
+}
+
+console.log('Exercise 6 Result:', maxOfThree(5, 10, 8))
 
 // calculateTip(50, 20)
 // if (50 * 0.5) => {
