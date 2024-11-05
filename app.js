@@ -57,12 +57,25 @@
 
 // console.log('Exercise 8 Result:', convertTemperature(32, 'C'))
 
-const basicCalculator = (num1, num2, minus) => {
-  if (minus === 'subtract') {
-    return num1 - num2
+// const basicCalculator = (num1, num2, minus) => {
+//   if (minus === 'subtract') {
+//     return num1 - num2
+//   }
+// }
+
+// console.log('Exercise 9 Result:', basicCalculator(10, 5, 'subtract'))
+
+const calculateGrade = (score) => {
+  if (score >= 90) {
+    return 'A'
+  } else if (score >= 80) {
+    return 'B'
+  } else if (score >= 70) {
+    return 'C'
+  } else if (score >= 60) {
+    return 'D'
+  } else {
+    return 'F'
   }
 }
-
-console.log('Exercise 9 Result:', basicCalculator(10, 5, 'subtract'))
-
-// calculateGrade(A, B, C, D, F)
+console.log('Exercise 10 Resilt', calculateGrade(85))
