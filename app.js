@@ -18,16 +18,12 @@ const isAdult = (age) => {
 
 console.log('Exercise 2 Result:', isAdult(21)) // Output: 'Adult'
 
-// const isCharAVowel(char) => {
-//   // Convert the character to lowercase to handle coth uppercase and lowercase input
-//   if (isCharAVowel ("a"))  {
-//     return true;
-//   } else {
-//       return false;
-//     }
-//   }
-
-// console.log('Exercise 3 Result:', isCharAVowel("a"));
+const isCharAVowel = (char) => {
+  if (char === 'a') {
+    return true
+  } else return false
+}
+console.log('Exercise 3 Result:', isCharAVowel('a')) // Output: true
 
 // generateEmail("johnsmith", "example.com") { if (generateEmail ("johnsmith", "example.com")) => {
 //   return 'johnsmith@example.com';
