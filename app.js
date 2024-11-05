@@ -16,4 +16,17 @@ const isAdult = (isAdult 21, Adult) {
     }
   }
 }
-
+isCharAVowel("a") {
+  if (isCharAVowel ("a")) => {
+    return true;
+    else {
+      return false;
+    }
+  }
+}
+generateEmail("johnsmith", "example.com") if (generateEmail ("johnsmith", "example.com")) => {
+  return 'johnsmith@example.com';
+  else {
+    return false;
+  }
+}
