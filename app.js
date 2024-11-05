@@ -25,25 +25,16 @@ const isCharAVowel = (char) => {
 }
 console.log('Exercise 3 Result:', isCharAVowel('a')) // Output: true
 
-// generateEmail("johnsmith", "example.com") { if (generateEmail ("johnsmith", "example.com")) => {
-//   return 'johnsmith@example.com';
-//   else {
-//     return false;
-//   }
-// }
-// }
-// onsole.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
+const generateEmail = (name, email) => {
+  return `${name}@${email}`
+}
 
-// greetUser("morning", "afternoon", "evening") {
-//   if ("Sam", "morning") => {
-//     return 'Goodmorning Sam';
-//   } else if("Sam", "afternoon") => {
-//     return 'Goodafternoon Sam';
-//   } else if("Sam", "evening") => {
-//     return 'Goodevening Sam'
-//   }
-// }
-// console.log('Exercise 5 Result:', greetUser("Sam", "morning"),("Sam","afternoon"), ("Sam", "evening"));
+console.log('Exercise 4 Result:', generateEmail('johnsmith', 'example.com'))
+
+const greetUser = (name, timeOfDay) => {
+  return `Good${timeOfDay}${name}!`
+}
+console.log('Exercise 5 Result:', greetUser('Sam', 'morning'))
 
 // maxOfThree(17, 4, 9)
 // if(17 > 4) => {
