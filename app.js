@@ -65,17 +65,25 @@
 
 // console.log('Exercise 9 Result:', basicCalculator(10, 5, 'subtract'))
 
-const calculateGrade = (score) => {
-  if (score >= 90) {
-    return 'A'
-  } else if (score >= 80) {
-    return 'B'
-  } else if (score >= 70) {
-    return 'C'
-  } else if (score >= 60) {
-    return 'D'
-  } else {
-    return 'F'
-  }
+// const calculateGrade = (score) => {
+//   if (score >= 90) {
+//     return 'A'
+//   } else if (score >= 80) {
+//     return 'B'
+//   } else if (score >= 70) {
+//     return 'C'
+//   } else if (score >= 60) {
+//     return 'D'
+//   } else {
+//     return 'F'
+//   }
+// }
+// console.log('Exercise 10 Resilt', calculateGrade(85))
+
+const createUsername = (Samantha, Green) => {
+  const firstPart = Samantha.slice(0, 3)
+  const secondPart = Green.slice(0, 3)
+  const total = Samantha + Green
+  return Samantha + Green
 }
-console.log('Exercise 10 Resilt', calculateGrade(85))
+console.log('Exercise 11 Result:', createUsername('Samantha', 'Green'))
