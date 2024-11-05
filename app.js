@@ -36,19 +36,16 @@
 // }
 // console.log('Exercise 5 Result:', greetUser('Sam', 'morning'))
 
-const maxOfThree = (num1, num2, num3) => {
-  return Math.max(num1, num2, num3)
-}
-
-console.log('Exercise 6 Result:', maxOfThree(5, 10, 8))
-
-// calculateTip(50, 20)
-// if (50 * 0.5) => {
-//   return 10;
-// } else if (20 * 0.2) => {
-//   return 10;
+// const maxOfThree = (num1, num2, num3) => {
+//   return Math.max(num1, num2, num3)
 // }
-// console.log('Exercise 7 Result:', calculateTip(50, 20))
+
+// console.log('Exercise 6 Result:', maxOfThree(5, 10, 8))
+
+const calculateTip = (num1, num2) => {
+  return 50 * 0.2, 20 * 0.5
+}
+console.log('Exercise 7 Result:', calculateTip(50, 20))
 
 // convertTemperature('C', 'F')
 // if (32, 'C') => {
