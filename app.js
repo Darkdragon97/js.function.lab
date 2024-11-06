@@ -47,11 +47,11 @@ const calculateTip = (num1, num2) => {
 }
 console.log('Exercise 7 Result:', calculateTip(50, 20))
 
-const convertTemperature = (Celsius, Fahrenheit) => {
-  if (Celsius === 'C') {
-    return Fahrenheit * (5 / 9) + 32
-  } else if (Fahrenheit === 'F') {
-    return Celsius * (5 / 9) - 32
+const convertTemperature = (value, unit) => {
+  if (unit === 'C') {
+    return (9 / 5) * value + 32
+  } else if (unit === 'F') {
+    return (5 / 9)(value - 32)
   }
 }
 
